@@ -1,5 +1,5 @@
 import numpy as np
-import sklearn.utils.linear_assignment_ as la
+from scipy.optimize import linear_sum_assignment as la
 from sklearn.metrics import accuracy_score
 from sklearn.metrics.cluster import normalized_mutual_info_score
 from sklearn.cluster import KMeans
